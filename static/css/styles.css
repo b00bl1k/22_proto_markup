@@ -5,3 +5,32 @@ footer {
 	margin-bottom: 20px;
 	margin-top: 10px;
 }
+
+.logo {
+  font-size: 175%;
+}
+
+.carousel-inner {
+  border: 2px solid #b3b3b3;
+}
+
+.carousel-control {
+  background-image: none !important;
+  color: grey;
+  font-size: 48px;
+  padding-top: 10%;
+}
+
+.review {
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-control.left  {
+    margin-left: -70px;
+  }
+
+  .carousel-control.right  {
+    margin-right: -70px;
+  }
+}
